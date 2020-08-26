@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reflektion API Test Suite">
+    <test name="Reflektion API Test" preserve-order="true">
+        <classes>
+            <class name="com.reflektion.testScripts.GetAllPosts"></class>
+            <class name="com.reflektion.testScripts.GetSinglePosts"></class>
+            <class name="com.reflektion.testScripts.GetInvalidPosts"></class>
+            <class name="com.reflektion.testScripts.CreatePosts"></class>
+            <class name="com.reflektion.testScripts.UpdatePosts"></class>
+            <class name="com.reflektion.testScripts.DeletePosts"></class>
+        </classes>
+    </test>
+</suite>
