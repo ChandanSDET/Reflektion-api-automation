@@ -17,7 +17,7 @@ public class CreatePosts extends InitTest {
         try {
             extentLogger = extentReport.createTest("Validate create posts endpoint");
             setExtentTest(extentLogger);
-            getExtentTest().info("Request body is: " + new Gson().toJson("{title: \"foo\", \"body\": \"bar\", \"userId\": 1 }"));
+            getExtentTest().info("Request body is: {\"title\": \"foo\", \"body\": \"bar\", \"userId\": 1 }");
             Response response = httpRequest
                     .body("{\n" +
                             "\"title\": \"foo\",\n" +
